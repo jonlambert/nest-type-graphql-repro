@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
-import { InterestedUser } from './interested-user.entity';
-import { InterestedUserResolver } from './interested-user.resolver';
+import { InterestedUser } from '@api/interested-user/interested-user.entity';
+import { InterestedUserResolver } from '@api/interested-user/interested-user.resolver';
 
 @Module({
   imports: [

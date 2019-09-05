@@ -1,5 +1,7 @@
 import { TypeOrmModule } from '@nestjs/typeorm';
 
+console.log([__dirname + '/../../dist/**/*.entity{.ts,.js}']);
+
 export const createDatabaseModule = () => {
   return TypeOrmModule.forRoot({
     type: 'mysql',

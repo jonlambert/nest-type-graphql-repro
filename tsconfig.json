@@ -11,7 +11,10 @@
     "baseUrl": "./",
     "incremental": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "paths": {
+      "@api/*": ["./src/*"]
+    }
   },
   "exclude": ["node_modules", "dist"]
 }
